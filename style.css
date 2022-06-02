@@ -3,13 +3,21 @@
     padding: 0;
     cursor:none;
   }
+/* ADDING OUR OWN FONTS*/
+@font-face {
+    font-family: 'SK-Modernist-Mono';
+    src: url(fonts/Sk-Modernist-Mono.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'SK-Modernist-Bold';
+    font-weight: bold;
+    src: url(fonts/Sk-Modernist-Bold.otf) format("opentype");
+}
 
 body{
     margin:0;
     padding: 0;
-    font-family: Sk-Modernist;
-    src: url("./assets/Sk-Modernist-Bold.otf") format("opentype");
-    src:url("./assets/Sk-Modernist-Regular.otf") format("opentype");
 
 }
 
